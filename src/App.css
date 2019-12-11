@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 .container {
     background-color: #c00025;
     width: 100%;
@@ -7,7 +10,7 @@
     padding-bottom: 25px;
 }
 .display {
-    margin-top: 25px;
+    margin: 25px auto;
     height: 100px;
     width: 450px;
     border-radius: 50px;
@@ -20,3 +23,33 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
+.logo-container{
+    margin: 30px 0 0 50px;
+}
+.compCont{
+    display:flex;
+    width:400px;
+    margin: 0 auto;
+    justify-content: center;
+    
+}
+.numPad{
+    display:flex;
+    flex-direction:column;
+}
+.numbers{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.opp{
+    display:flex;
+    flex-direction:column;
+}
+button {
+    width: 80px;
+    height: 80px;
+    margin:10px 10px;
+    border-radius: 50%;
+    color:white;
+}
